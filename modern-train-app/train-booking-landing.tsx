@@ -121,7 +121,7 @@ export default function Component() {
                 </div>
                 <div>
                   <p className="font-semibold text-slate-900">On-time guarantee</p>
-                  <p className="text-sm text-slate-600">99.2% punctuality rate</p>
+                  <p className="text-sm text-slate-600">98% punctuality rate</p>
                 </div>
               </div>
             </div>
