@@ -9,7 +9,7 @@ export default function Component() {
       <header className="border-b bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Train className="h-8 w-8 text-emerald-600" />
+            <Train className="h-8 w-8 text-blue-600" />
             <span className="text-xl font-bold text-slate-900">RailWay</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -25,7 +25,7 @@ export default function Component() {
             <button className="px-4 py-2 text-sm border border-slate-300 rounded-md hover:bg-slate-50 transition-colors">
               Sign In
             </button>
-            <button className="px-4 py-2 text-sm bg-emerald-600 text-white rounded-md hover:bg-emerald-700 transition-colors">
+            <button className="px-4 py-2 text-sm bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
               Book Now
             </button>
           </nav>
@@ -37,12 +37,12 @@ export default function Component() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <span className="inline-block px-3 py-1 text-xs font-medium bg-emerald-100 text-emerald-800 rounded-full">
+              <span className="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">
                 ✨ Now with 30% faster booking
               </span>
               <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 leading-tight">
                 Travel by train,
-                <span className="text-emerald-600"> arrive refreshed</span>
+                <span className="text-blue-600"> arrive refreshed</span>
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed">
                 Book your perfect train journey in seconds. Comfortable seats, reliable schedules, and unbeatable prices
@@ -60,7 +60,7 @@ export default function Component() {
                     <input
                       type="text"
                       placeholder="New York"
-                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     />
                   </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Component() {
                     <input
                       type="text"
                       placeholder="Boston"
-                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     />
                   </div>
                 </div>
@@ -83,7 +83,7 @@ export default function Component() {
                     <Calendar className="absolute left-3 top-3 h-4 w-4 text-slate-400" />
                     <input
                       type="date"
-                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     />
                   </div>
                 </div>
@@ -94,12 +94,12 @@ export default function Component() {
                     <input
                       type="text"
                       placeholder="2 adults"
-                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                      className="w-full pl-10 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     />
                   </div>
                 </div>
               </div>
-              <button className="w-full h-12 bg-emerald-600 hover:bg-emerald-700 text-white text-lg rounded-md flex items-center justify-center">
+              <button className="w-full h-12 bg-blue-600 hover:bg-blue-700 text-white text-lg rounded-md flex items-center justify-center">
                 Search Trains
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
@@ -116,8 +116,8 @@ export default function Component() {
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
               <div className="flex items-center gap-3">
-                <div className="bg-emerald-100 p-2 rounded-lg">
-                  <Clock className="h-6 w-6 text-emerald-600" />
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <Clock className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
                   <p className="font-semibold text-slate-900">On-time guarantee</p>
@@ -141,16 +141,16 @@ export default function Component() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white text-center p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="h-8 w-8 text-emerald-600" />
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Safe & Secure</h3>
               <p className="text-slate-600">Advanced safety systems and secure payment processing for peace of mind.</p>
             </div>
 
             <div className="bg-white text-center p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Wifi className="h-8 w-8 text-emerald-600" />
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Wifi className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Free WiFi</h3>
               <p className="text-slate-600">
@@ -159,16 +159,16 @@ export default function Component() {
             </div>
 
             <div className="bg-white text-center p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Coffee className="h-8 w-8 text-emerald-600" />
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Coffee className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Onboard Dining</h3>
               <p className="text-slate-600">Enjoy fresh meals and beverages from our premium dining car selection.</p>
             </div>
 
             <div className="bg-white text-center p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="bg-emerald-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="h-8 w-8 text-emerald-600" />
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="font-semibold text-slate-900 mb-2">Always On Time</h3>
               <p className="text-slate-600">Reliable schedules with real-time updates and guaranteed punctuality.</p>
@@ -195,7 +195,7 @@ export default function Component() {
                   className="object-cover"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-emerald-600 text-white px-3 py-1 text-xs font-medium rounded-full">Popular</span>
+                  <span className="bg-blue-600 text-white px-3 py-1 text-xs font-medium rounded-full">Popular</span>
                 </div>
               </div>
               <div className="p-6">
@@ -203,7 +203,7 @@ export default function Component() {
                 <p className="text-slate-600 mb-4">Experience the scenic Northeast Corridor</p>
                 <div className="flex justify-between items-center">
                   <div>
-                    <p className="text-2xl font-bold text-emerald-600">$89</p>
+                    <p className="text-2xl font-bold text-blue-600">$89</p>
                     <p className="text-sm text-slate-500">from</p>
                   </div>
                   <button className="px-4 py-2 border border-slate-300 rounded-md hover:bg-slate-50 transition-colors">
@@ -227,7 +227,7 @@ export default function Component() {
                 <p className="text-slate-600 mb-4">Quick connection to the Midwest</p>
                 <div className="flex justify-between items-center">
                   <div>
-                    <p className="text-2xl font-bold text-emerald-600">$45</p>
+                    <p className="text-2xl font-bold text-blue-600">$45</p>
                     <p className="text-sm text-slate-500">from</p>
                   </div>
                   <button className="px-4 py-2 border border-slate-300 rounded-md hover:bg-slate-50 transition-colors">
@@ -251,7 +251,7 @@ export default function Component() {
                 <p className="text-slate-600 mb-4">Coastal views along the Pacific</p>
                 <div className="flex justify-between items-center">
                   <div>
-                    <p className="text-2xl font-bold text-emerald-600">$129</p>
+                    <p className="text-2xl font-bold text-blue-600">$129</p>
                     <p className="text-sm text-slate-500">from</p>
                   </div>
                   <button className="px-4 py-2 border border-slate-300 rounded-md hover:bg-slate-50 transition-colors">
@@ -283,8 +283,8 @@ export default function Component() {
                 4-hour journey."
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                  <span className="font-semibold text-emerald-600">SJ</span>
+                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                  <span className="font-semibold text-blue-600">SJ</span>
                 </div>
                 <div>
                   <p className="font-semibold text-slate-900">Sarah Johnson</p>
@@ -304,8 +304,8 @@ export default function Component() {
                 than flying!"
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                  <span className="font-semibold text-emerald-600">MC</span>
+                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                  <span className="font-semibold text-blue-600">MC</span>
                 </div>
                 <div>
                   <p className="font-semibold text-slate-900">Mike Chen</p>
@@ -324,8 +324,8 @@ export default function Component() {
                 "Punctual, clean, and affordable. The mobile app made everything so easy. I'm definitely booking again."
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
-                  <span className="font-semibold text-emerald-600">ER</span>
+                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                  <span className="font-semibold text-blue-600">ER</span>
                 </div>
                 <div>
                   <p className="font-semibold text-slate-900">Emma Rodriguez</p>
@@ -340,18 +340,18 @@ export default function Component() {
       {/* CTA Section */}
       <section className="py-16 lg:py-24">
         <div className="container mx-auto px-4">
-          <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-xl text-white p-12 text-center">
+          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl text-white p-12 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready for your next adventure?</h2>
-            <p className="text-xl text-emerald-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
               Join thousands of satisfied passengers who choose RailWay for comfortable, reliable, and affordable train
               travel.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-6 py-3 bg-white text-emerald-600 hover:bg-slate-100 rounded-md font-medium flex items-center justify-center">
+              <button className="px-6 py-3 bg-white text-blue-600 hover:bg-slate-100 rounded-md font-medium flex items-center justify-center">
                 Book Your Journey
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
-              <button className="px-6 py-3 border border-white text-white hover:bg-white hover:text-emerald-600 rounded-md font-medium">
+              <button className="px-6 py-3 border border-white text-white hover:bg-white hover:text-blue-600 rounded-md font-medium">
                 View All Routes
               </button>
             </div>
@@ -365,7 +365,7 @@ export default function Component() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Train className="h-8 w-8 text-emerald-400" />
+                <Train className="h-8 w-8 text-blue-400" />
                 <span className="text-xl font-bold">RailWay</span>
               </div>
               <p className="text-slate-400">Making train travel accessible, comfortable, and reliable for everyone.</p>
